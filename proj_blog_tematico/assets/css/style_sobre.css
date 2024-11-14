@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #fafafa;
+    border-bottom: 2px solid #ddd;
+}
+
+.titulo h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.titulo {
+    font-size: 1.1em;
+    color: #666;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #005fa3;
+}
+
+.sobre, .servicos {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.sobre h2, .servicos h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sobre p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.servicos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servico {
+    background-color: #e3e3e3;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    transition: background-color 0.3s;
+}
+
+.servico:hover {
+    background-color: #d1d1d1;
+}
+
+.servico h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.servico p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fafafa;
+    border-top: 2px solid #ddd;
+    width: 100%;
+    font-size: 0.9em;
+    color: #666;
+}
