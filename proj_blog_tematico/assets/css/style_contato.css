@@ -94,7 +94,7 @@ main {
 
 .contato h1 {
     font-size: 36px;
-    color: var(--cor-texto-principal);
+    color: var(--cor-azul-escuro);
     margin-bottom: 20px;
 }
 
@@ -173,6 +173,9 @@ footer {
     position: relative;
     margin-top: auto;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+footer a{
+    color: white;
 }
 
 footer p {
