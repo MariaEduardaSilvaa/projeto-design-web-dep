@@ -1,19 +1,18 @@
 :root {
-    --cor-fundo-escuro: #343a40; /* Cor escura para cabeçalhos e rodapé */
-    --cor-fundo-claro: #f8f9fa;  /* Cor clara para o fundo da página */
-    --cor-fundo-branco: #ffffff; /* Cor de fundo para as seções */
-    --cor-azul: #007bff;         /* Cor azul para botões e links */
-    --cor-azul-escuro: #0056b3;  /* Azul mais escuro para hover */
-    --cor-laranja: #fd7e14;      /* Laranja para hover nos links */
-    --cor-texto-principal: #343a40;  /* Texto principal escuro */
-    --cor-texto-secundario: #6c757d; /* Texto secundário mais suave */
-    --cor-texto-claro: #ffffff;      /* Texto claro para o fundo escuro */
-    --cor-borda: #ced4da;         /* Cor de borda suave */
-    --cor-borda-foco: rgba(0, 123, 255, 0.5); /* Cor de borda ao focar nos inputs */
-    --cor-footer-fundo: #343a40;  /* Fundo do rodapé */
-    --cor-footer-texto: #ffffff;  /* Texto do rodapé */
+    --cor-fundo-escuro: #343a40;
+    --cor-fundo-claro: #f8f9fa;
+    --cor-fundo-branco: #ffffff;
+    --cor-azul: #007bff;
+    --cor-azul-escuro: #0056b3;
+    --cor-laranja: #fd7e14;
+    --cor-texto-principal: #343a40;
+    --cor-texto-secundario: #6c757d;
+    --cor-texto-claro: #ffffff;
+    --cor-borda: #ced4da;
+    --cor-borda-foco: rgba(0, 123, 255, 0.5);
+    --cor-footer-fundo: #343a40;
+    --cor-footer-texto: #ffffff;
 }
-
 
 * {
     margin: 0;
