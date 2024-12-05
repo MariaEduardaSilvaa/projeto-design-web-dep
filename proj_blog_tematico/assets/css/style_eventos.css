@@ -1,1 +1,106 @@
+:root {
+    --cor-fundo-escuro: #343a40; /* Cor escura para cabeçalhos e rodapé */
+    --cor-fundo-claro: #f8f9fa;  /* Cor clara para o fundo da página */
+    --cor-fundo-branco: #ffffff; /* Cor de fundo para as seções */
+    --cor-azul: #007bff;         /* Cor azul para botões e links */
+    --cor-azul-escuro: #0056b3;  /* Azul mais escuro para hover */
+    --cor-laranja: #fd7e14;      /* Laranja para hover nos links */
+    --cor-texto-principal: #343a40;  /* Texto principal escuro */
+    --cor-texto-secundario: #6c757d; /* Texto secundário mais suave */
+    --cor-texto-claro: #ffffff;      /* Texto claro para o fundo escuro */
+    --cor-borda: #ced4da;         /* Cor de borda suave */
+    --cor-borda-foco: rgba(0, 123, 255, 0.5); /* Cor de borda ao focar nos inputs */
+    --cor-footer-fundo: #343a40;  /* Fundo do rodapé */
+    --cor-footer-texto: #ffffff;  /* Texto do rodapé */
+}
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto-claro);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: var(--cor-texto-claro);
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.eventos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.evento {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.evento h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.evento p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.evento strong {
+    color: #000;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--cor-footer-fundo);
+    color: var(--cor-footer-texto);
+    padding: 25px 0;
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+    color: var(--cor-footer-texto);
+}
