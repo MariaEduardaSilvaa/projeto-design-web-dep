@@ -29,9 +29,9 @@ body {
 }
 
 
-.sobre, .historia, .equipe, .galeria, .citacoes, .missao, .depoimentos, .cta {
-    width: 100%;
-    margin: 20px 0;
+.sobre,.equipe, .galeria, .citacoes, .depoimentos, .cta {
+    width: 90%;
+    margin: 20px ;
     text-align: center;
     background-color: var(--cor-fundo-secao);
     padding: 20px;
@@ -40,14 +40,14 @@ body {
 }
 
 
-.sobre h2, .historia h2, .equipe h2, .galeria h2, .citacoes h2, .missao h2, .depoimentos h2, .cta h2 {
+.sobre h2, .equipe h2, .galeria h2, .citacoes h2, .depoimentos h2, .cta h2 {
     font-size: 2em;
     margin-bottom: 10px;
     color: var(--cor-texto);
 }
 
 
-.sobre p, .historia p, .missao p, .depoimentos p, .cta p {
+.sobre p,  .missao p, .depoimentos p, .cta p {
     font-size: 1.1em;
     color: var(--cor-secundaria);
     line-height: 1.6;
@@ -84,25 +84,6 @@ body {
     line-height: 1.5;
 }
 
-.galeria .imagens {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.galeria .imagens img {
-    width: 200px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.galeria .imagens img:hover {
-    transform: scale(1.05);
-}
-
 
 .citacoes blockquote {
     font-style: italic;
@@ -128,6 +109,7 @@ body {
 .cta .botao:hover {
     background-color: var(--cor-primaria-hover);
 }
+
 header {
     width: 100%;
     background-color: var(--cor-fundo-escuro);
@@ -155,7 +137,6 @@ nav a {
     font-weight: 600;
     text-transform: uppercase;
 }
-
 
 
 footer{
